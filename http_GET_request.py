@@ -1,3 +1,8 @@
+"""
+
+Using the Requests library to perform a basic HTTP GET request
+
+"""
 import requests
 
 def check_website(url):
@@ -11,4 +16,4 @@ def check_website(url):
     except requests.exceptions.RequestException as e:
         print(f"An error occured: {e}")
 
-check_website("https://9animetv.to/")
+check_website("https://www.example.com")
